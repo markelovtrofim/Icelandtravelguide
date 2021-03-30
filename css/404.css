@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+}
+
+
+/* Intro */
+.intro {
+	height: 980px;
+	background: #000 url("../img/fon.jpg") center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+}
+
+.intro_inner {
+	text-align: center;
+	padding-top: 400px;
+}
+
+.intro_title {
+	color: #fff;
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+
+.intro_text {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.intro_direction {
+	opacity: 0.8;
+}
+
+.intro_direction:hover {
+	opacity: 1;
+}
+
+
+/* Barker */
+.barker {
+	padding: 15px 20px;
+	border: 1px solid #f3f4f5;
+	font-size: 14px;
+	color: #f3f4f5;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.2s;
+}
+
+.barker:hover {
+	background-color: #f3f4f5;
+	color: #000;
+}
